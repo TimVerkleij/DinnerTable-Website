@@ -25,17 +25,11 @@ or
 Clone the repository
 ```
 
-Sync gradle files
+Launching the website
 ```
-Open the folder in Android Studio.
-You will see a notification about gradle files.
-Press Sync to make your project up-to-date
+Just open the damn index.html
 ```
 
-Choose and Install an emulator to run the project.
-Click [here](https://developer.android.com/studio/run/managing-avds) if you need any help installing the emulator.
-
-After the installation you can click the green play button to run the emulator
 
 ## Contributors :smile:
 A list of people who contributed to this project
