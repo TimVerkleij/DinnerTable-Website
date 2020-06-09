@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+    <link rel="stylesheet" href="stylesheets/style.css">
+    <link rel="stylesheet" href="stylesheets/nieuws.css">
+    <link rel="stylesheet" href="stylesheets/download.css">
+    <title>DinnerTable</title>
+</head>
+
+<body>
+    <div id="navbar">
+        <!--!! navigatie bar-->
+        <div style="margin-left: 20px; padding-top: 10px;">
+            <h2 style="color: #ffffff; float: left">Dinner</h2>
+            <h2 style="color: #3d3e3c; float: left">Table</h2>
+        </div>
+        <div class="navItems">
+            <a class="item" href="#download">
+                <p>Download</p>
+            </a>
+            <a class="item" href="#nieuws">
+                <p>Nieuws</p>
+            </a>
+            <a class="item" href="#home">
+                <p>Home</p>
+            </a>
+
+        </div>
+
+        <div class="navItemsMobile navItemsHide" id="mobileNavItems">
+            <a class="item" href="#home" onclick="closeNavbar()">
+                <p>Home</p>
+            </a>
+            <a class="item" href="#nieuws" onclick="closeNavbar()">
+                <p>Nieuws</p>
+            </a>
+
+            <a class="item" href="#download" onclick="closeNavbar()">
+                <p>Download</p>
+            </a>
+
+        </div>
+        <div class="burgerIcon" onclick="showNavbar()">
+            <div class="burger"></div>
+            <div class="burger"></div>
+            <div class="burger"></div>
+        </div>
+
+    </div>
+    <div class="darkness" id="darkness">
+    </div>
+
+    <div id="home">
+        <!--!! home div-->
+        <table class="homeTable invisible">
+            <tr>
+                <td class="imageCell">
+                    <img src="/images/aardappels.png" alt="Gerecht 1" class="homeImage">
+                </td>
+                <td class="textCell">
+                    <h2 class="subTitle">Welkom op de site van DinnerTable</h2><br>
+                    <p class="context">Hier kunt u de meest recente updates vinden<br> de app downloaden</p>
+                </td>
+                <td class="imageCell">
+                    <img src="/images/indisch.png" alt="Gerecht 2" class="homeImage">
+                </td>
+            </tr>
+            <tr>
+                <td class="textCell">
+                    <p class="context">Heeft u weleens de vraag?:</p><br>
+                    <h2 class="subTitle">"Wat zullen we vanavond eten?"</h2><br>
+                    <p class="context">en vervolgens niks kunnen bedenken...</p>
+                </td>
+                <td class="imageCell">
+                    <img src="/images/boontjes.png" alt="Gerecht 3" class="homeImage">
+                </td>
+                <td class="textCell">
+                    <h2 class="subTitle">Dan is DinnerTable dé oplossing!</h2><br>
+                    <p class="context">Met onze app krijgt u suggesties gebaseerd op uw eetpatroon <br> <br> Het enige wat u hoeft te doen is aangeven wat u gegeten <br> heeft en hoe lekker u het vondt <br> <br> Hierdoor hebben wij altijd geschike aanbevelingen voor u!</p>
+                </td>
+            </tr>
+        </table>
+
+        <div class="homeInfoDiv">
+            <img src="/images/mobileHomeBackground.png" alt="FOOD" class="homeImage">
+            <p class="homeVraag">Heeft u ook wel eens de vraag<br><strong>"Wat zullen we vanavond eten?"</strong><br> en vervolgens niks kunnen bedenken?<br><br>
+                <Strong>DinnerTable is dé oplossing!</Strong>
+            </p>
+
+        </div>
+        <div class="homeInfoDiv">
+            <p class="homeInfoTitle">Wij hebben altijd een geschikte aanbeveling</p><br>
+            <p class="homeInfo">Met onze app krijgt u suggesties gebaseerd op uw eetpatroon. Het enige wat u hoeft te doen is aangeven wat u gegeten heeft, en hoe lekker u het vond!</p>
+        </div>
+
+    </div>
+
+    <div id="nieuws">
+        <!--!! nieuws div-->
+        <h2 class="Title">Nieuws</h2>
+
+        <table class="nieuwsTable">
+            <tr>
+                <td class="nieuwsCell">
+                    <h2 class="listTitle">Updates</h2>
+                    <li style="list-style-type: none;">
+                        <ul class="listItem">
+                            <p> <strong>01/04/20</strong> 1e publicatie DinnerTable app</p>
+                        </ul><br>
+                        <ul class="listItem">
+                            <p> <strong>02/04/20</strong> Lancering DinnerTable website</p>
+                        </ul>
+                    </li>
+                </td>
+                <td class="nieuwsCell">
+                    <h2 class="listTitle">Verwacht</h2>
+                    <li style="list-style-type: none;">
+                        <ul class="listItem">IOS versie</ul><br>
+                        <ul class="listItem">Meerdere inlogmethodes</ul>
+                    </li>
+                </td>
+            </tr>
+        </table>
+
+        <div class="mobileNews">
+            <div class="nieuwsCell">
+                <h2 class="listTitle">Updates</h2>
+                <p> <strong>01/04/20</strong> 1e publicatie DinnerTable app</p>
+                <p> <strong>02/04/20</strong> Lancering DinnerTable website</p>
+            </div>
+            <div class="nieuwsCell">
+                <h2 class="listTitle">Verwacht</h2>
+                <p>iOS versie</p>
+                <p>Meerdere inlogmethodes</p>
+            </div>
+        </div>
+
+
+    </div>
+
+    <div id="download">
+        <!--!! download div-->
+        <div class="downloadDiv">
+
+            <div class="subDiv">
+                <h2 class="downloadTitle">Download</h2>
+                <p class="downloadText">Klik op de onderstaande knop om de app te downloaden</p>
+                <a href="files/DinnerTable.apk"><button class="downloadButton"><label style="color: white">Dinner</label><label style="color: #3d3e3c">Table</label></button></a>
+            </div>
+
+        </div>
+    </div>
+    <div class="copyRight">
+        <p>©2020 DinnerTable All Rights Reserved</p>
+    </div>
+</body>
+<script src="js/script.js" defer></script>
+
+</html>

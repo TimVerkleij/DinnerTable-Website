@@ -1,0 +1,91 @@
+@media only screen and (min-width: 600px) {
+    .downloadDiv {
+        background-image: url(/images/downloadBackground.png);
+        background-size: 100% 800px;
+        height: 800px;
+    }
+    .subDiv {
+        display: inline-block;
+        margin-top: 175px;
+        margin-left: 20%;
+        margin-right: 20%;
+        width: 60%;
+        height: 300px;
+        border: 8px solid white;
+        text-align: center;
+    }
+    .downloadTitle {
+        font-size: 35px;
+        font-weight: bold;
+        color: #464745;
+        background-color: white;
+        width: 230px;
+        margin-right: auto;
+        margin-left: auto;
+        margin-top: -25px;
+        border-radius: 5px;
+    }
+    .downloadText {
+        font-size: 16px;
+        color: #3d3e3c;
+        margin-top: 40px;
+        margin-bottom: 40px;
+    }
+    .downloadButton {
+        height: 80px;
+        width: 300px;
+        background-color: #B3D1AA;
+        border: none;
+        border-radius: 10px;
+        font-size: 28px;
+        font-weight: bold;
+    }
+    .downloadButton:active {
+        background: rgb(157, 190, 147);
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .downloadDiv {
+        background-image: url(/images/downloadBackground.png);
+        background-size: 100% 450px;
+        height: 400px;
+        padding-top: 50px;
+    }
+    .subDiv {
+        margin-left: 10%;
+        margin-right: 10%;
+        width: 80%;
+        height: 200px;
+        border: 8px solid white;
+        text-align: center;
+    }
+    .downloadTitle {
+        font-size: 20px;
+        font-weight: bold;
+        color: #464745;
+        text-align: center;
+        background-color: white;
+        padding: 5px;
+        width: min-content;
+        margin-right: auto;
+        margin-left: auto;
+        margin-top: -20px;
+        border-radius: 5px;
+    }
+    .downloadText {
+        font-size: 14px;
+        color: #3d3e3c;
+        margin-top: 40px;
+        margin-bottom: 40px;
+    }
+    .downloadButton {
+        height: 20%;
+        width: 60%;
+        background-color: #B3D1AA;
+        border: none;
+        border-radius: 5px;
+        font-size: 28px;
+        font-weight: bold;
+    }
+}

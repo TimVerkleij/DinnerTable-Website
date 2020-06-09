@@ -1,0 +1,87 @@
+.Title {
+    font-size: 25px;
+    color: #464745;
+    text-align: center;
+    margin: 20px;
+}
+
+@media only screen and (min-width: 960px) {
+    #nieuws {
+        background-color: #F3F7F2;
+        padding-top: 25px;
+        height: 750px;
+    }
+    .nieuwsTable {
+        width: 60%;
+        border-collapse: separate;
+        border-spacing: 50px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .nieuwsCell {
+        border: 8px solid white;
+        /* border-radius: 5px; */
+        width: 350px;
+        height: 400px;
+        text-align: center;
+        padding-left: 20px;
+    }
+    .listTitle {
+        font-size: 20px;
+        text-align: center;
+        color: white;
+        width: 120px;
+        height: 30px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: -220px;
+        margin-bottom: 50px;
+        background-color: #D2E4CB;
+        border-radius: 5px;
+        padding-top: 5px;
+    }
+    .listItem {
+        font-size: 16;
+        float: left;
+        color: #3D3E3C;
+    }
+    .mobileNews {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 959px) {
+    #nieuws {
+        background-color: #F3F7F2;
+        padding-top: 25px;
+        height: 500px;
+    }
+    .nieuwsTable {
+        display: none;
+    }
+    .listTitle {
+        font-size: 20px;
+        text-align: center;
+        color: white;
+        background-color: #D2E4CB;
+        width: 120px;
+        height: 30px;
+        margin-left: auto;
+        margin-right: auto;
+        border-radius: 5px;
+        margin-bottom: 30px;
+        padding-top: 5px;
+        margin-top: -20px;
+    }
+    .nieuwsCell {
+        border: 8px solid white;
+        border-radius: 5px;
+        width: 80%;
+        height: 100px;
+        font-size: 14px;
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 30px;
+    }
+}
